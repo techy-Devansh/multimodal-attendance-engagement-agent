@@ -1,0 +1,21 @@
+# SkillWallet — Multimodal Attendance & Engagement Agent
+# Recommended: 64-bit Python 3.14 on Windows
+# Install with: py -3.14 -m pip install -r requirements.txt
+
+streamlit>=1.40,<2.0
+numpy>=2.3,<3.0
+pandas>=2.2,<3.0
+pyarrow>=22.0,<27.0
+plotly>=5.24,<7.0
+
+# Computer vision / face landmarks
+mediapipe>=0.10.21,<0.11
+opencv-contrib-python>=4.10,<5.0
+
+# Audio processing
+librosa>=0.10.2,<1.0
+soundfile>=0.12.1
+scipy>=1.11
+
+# PDF reports
+reportlab>=4.2,<5.0
