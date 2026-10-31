@@ -10,7 +10,7 @@ plotly>=5.24,<7.0
 
 # Computer vision / face landmarks
 mediapipe>=0.10.21,<0.11
-opencv-contrib-python>=4.10,<5.0
+opencv-python-headless>=4.10,<5.0
 
 # Audio processing
 librosa>=0.10.2,<1.0
